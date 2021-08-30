@@ -5,7 +5,7 @@ debug_mode = True
 
 class Config():
     APP_PATH = os.path.dirname(__file__)
-    DEBUG = False
+    DEBUG = debug_mode
 
     SQLALCHEMY_ENGINE_OPTIONS = {
         "pool_pre_ping": True,
